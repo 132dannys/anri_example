@@ -34,7 +34,7 @@ services:
       context: ../client
       dockerfile: ./Dockerfile
     volumes:
-      - '.:/opt/client'
+      - '../client:/opt/client'
       - '/opt/client/node_modules'
     ports:
       - '8080:8080'
