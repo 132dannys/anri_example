@@ -13,6 +13,7 @@ alembic = "^1.11.1"
 asyncpg = "^0.28.0"
 psycopg2-binary = "^2.9.7"
 fastapi-amis-admin = "^0.6.3"
+fastapi-users = {extras = ["sqlalchemy"], version = "^12.1.1"}
 
 
 

@@ -4,8 +4,6 @@ from sqlalchemy import Column, func
 from sqlalchemy.types import DateTime
 from sqlalchemy.dialects import postgresql
 
-from api.src.database import Base
-
 
 class CoreModel:
     __abstract__ = True
